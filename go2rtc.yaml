@@ -1,0 +1,5 @@
+streams:
+  cam1: rtsp://admin:admin@203.190.139.10:7010/538
+
+api:
+  listen: ":1984"
