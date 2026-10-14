@@ -1,5 +1,5 @@
 streams:
-  cam1: rtsp://admin:admin@203.190.139.10:7010/538
+  cam1: rtsp://admin:admin@203.190.167.10:7010/538#transport=tcp#timeout=0
 
 api:
   listen: ":1984"
