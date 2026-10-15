@@ -3,3 +3,6 @@ streams:
 
 api:
   listen: ":1984"
+
+exec:
+  keepalive: "sh -c 'while true; do sleep 300; wget -q -O- https://go2rtc-1-bihl.onrender.com/api/config > /dev/null; done'"
